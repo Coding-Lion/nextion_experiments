@@ -1,6 +1,6 @@
 # Nextion - Custom Rounded Sliders
 
-I think I have found a solution to achive rounded corners, while still having all colors available.
+I think I have found a solution to achieve rounded corners, while still having all colors available.
 
 ## Step by step instructions
 
@@ -8,9 +8,9 @@ I created a custom font, that will serve as the colored bar. It contains two cod
 
 ![custom font](images/custom_font.png)
 
-Then I removed the pic (Background Image) and pic1 (Foregropund Image) of the slider.
+Then I removed the pic (Background Image) and pic1 (Foreground Image) of the slider.
 
-To display the bar I added this code Touch Release Event and the Touch Move Event of the Slider:
+To display the bar, I added this code Touch Release Event and the Touch Move Event of the Slider:
 
 ````
 //draw colored bar
