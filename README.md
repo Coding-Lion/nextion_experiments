@@ -2,7 +2,9 @@
 
 I think I have found a solution to achive rounded corners, while still having all colors available.
 
-I created a custom font, that will serve as the colored bar:
+## Step by step instructions
+
+I created a custom font, that will serve as the colored bar. It contains two code points ("a" and "b"), which represent the right and left side of the slider:
 
 ![custom font](images/custom_font.png)
 
@@ -19,7 +21,7 @@ xstr hBrightness.val*33/10+61,261,400,58,7,6371,6371,0,0,1,"ab"
 vis hBrightness,1
 ````
 
-Result:
+## Result
 
 ![custom font](images/simulator_1.png)
 ![custom font](images/simulator_2.png)
